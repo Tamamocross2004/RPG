@@ -16,37 +16,43 @@ public class PlayerMovement : MonoBehaviour
     // Tilemap 地图边界
     public Tilemap mapTilemap;
 
+    private bool isKnockedBack;
+
     // FixedUpdate is called 50x per frame
     void FixedUpdate()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-
-        if((horizontal > 0 && transform.localScale.x < 0) || 
-            (horizontal < 0 && transform.localScale.x > 0))
+        if(isKnockedBack == false)
         {
-            Flip();
+            float horizontal = Input.GetAxis("Horizontal");
+            float vertical = Input.GetAxis("Vertical");
+
+            if((horizontal > 0 && transform.localScale.x < 0) || 
+                (horizontal < 0 && transform.localScale.x > 0))
+            {
+                Flip();
+            }
+
+            anim.SetFloat("horizontal", Mathf.Abs(horizontal));
+            anim.SetFloat("vertical", Mathf.Abs(vertical));
+
+            Vector2 movement = new Vector2(horizontal, vertical) * speed;
+            Vector2 currentPosition = rb.position;
+            Vector2 newPosition = currentPosition + movement * Time.fixedDeltaTime;
+            
+            // 限制玩家位置在边界内（在移动前检查，避免闪回）
+            if (mapTilemap != null)
+            {
+                newPosition = ClampToTilemapBounds(currentPosition, newPosition);
+            }
+            // 限制玩家位置在边界内（使用与 Cinemachine 相同的边界）
+            else if (boundaryCollider != null)
+            {
+                newPosition = ClampToColliderBounds(currentPosition, newPosition);
+            }
+            
+            rb.MovePosition(newPosition);
         }
 
-        anim.SetFloat("horizontal", Mathf.Abs(horizontal));
-        anim.SetFloat("vertical", Mathf.Abs(vertical));
-
-        Vector2 movement = new Vector2(horizontal, vertical) * speed;
-        Vector2 currentPosition = rb.position;
-        Vector2 newPosition = currentPosition + movement * Time.fixedDeltaTime;
-        
-        // 限制玩家位置在边界内（在移动前检查，避免闪回）
-        if (mapTilemap != null)
-        {
-            newPosition = ClampToTilemapBounds(currentPosition, newPosition);
-        }
-        // 限制玩家位置在边界内（使用与 Cinemachine 相同的边界）
-        else if (boundaryCollider != null)
-        {
-            newPosition = ClampToColliderBounds(currentPosition, newPosition);
-        }
-        
-        rb.MovePosition(newPosition);
     }
 
     Vector2 ClampToTilemapBounds(Vector2 currentPos, Vector2 targetPos)
@@ -144,5 +150,23 @@ public class PlayerMovement : MonoBehaviour
     {
         facingDirection *= -1;
         transform.localScale = new Vector3(transform.localScale.x * (-1), transform.localScale.y, transform.localScale.z);
+    }
+
+    public void Knockback(Transform enemy, float force, float stunTime)
+    {
+        // 禁用玩家的移动
+        isKnockedBack = true;
+
+        // 击退
+        Vector2 direction = (transform.position - enemy.position).normalized;
+        rb.velocity = direction * force;
+        StartCoroutine(KnockbackCounter(stunTime));
+    }
+
+    IEnumerator KnockbackCounter(float stunTime)
+    {
+        yield return new WaitForSeconds(stunTime);
+        rb.velocity = Vector2.zero;
+        isKnockedBack = false;
     }
 }

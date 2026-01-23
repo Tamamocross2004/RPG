@@ -80,8 +80,8 @@ public class EnemyMovement : MonoBehaviour
                 ChangeState(EnemyState.Attacking);
             }
 
-            // 若距离大于攻击范围，进入追逐状态
-            else if(Vector2.Distance(transform.position, player.position) > attackRange)
+            // 若距离大于攻击范围且完成攻击动画后，进入追逐状态
+            else if(Vector2.Distance(transform.position, player.position) > attackRange && enemystate != EnemyState.Attacking)
             {
                 ChangeState(EnemyState.Chasing);
             }
