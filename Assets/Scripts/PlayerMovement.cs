@@ -10,6 +10,16 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
 
+    public PlayerCombat playerCombat;
+
+    private void Update()
+    {
+        if(Input.GetButtonDown("Slash"))
+        {
+            playerCombat.Attack();
+        }
+    }
+
     // 使用与 Cinemachine Confiner 相同的 Polygon Collider 2D
     public PolygonCollider2D boundaryCollider;
 

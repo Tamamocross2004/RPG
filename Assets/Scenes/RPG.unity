@@ -18462,7 +18462,7 @@ Tilemap:
       - {fileID: 889554585, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -846056802, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: 1260138292, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -7, y: -18, z: 0}
@@ -18582,7 +18582,7 @@ Tilemap:
       - {fileID: 670546297, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -937901025, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -290320525, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 5, y: -18, z: 0}
@@ -19062,7 +19062,7 @@ Tilemap:
       - {fileID: -94886206, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 207487934, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1429834415, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -18, y: -16, z: 0}
@@ -19227,7 +19227,7 @@ Tilemap:
       - {fileID: 917135853, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -1118760802, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: 1590282090, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -6, y: -16, z: 0}
@@ -19362,7 +19362,7 @@ Tilemap:
       - {fileID: 917135853, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -1118760802, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: 1590282090, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 3, y: -16, z: 0}
@@ -19467,7 +19467,7 @@ Tilemap:
       - {fileID: -94886206, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 207487934, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1429834415, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: -15, z: 0}
@@ -19722,7 +19722,7 @@ Tilemap:
       - {fileID: 256438735, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 2098298150, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -934961501, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 22, y: -15, z: 0}
@@ -20937,7 +20937,7 @@ Tilemap:
       - {fileID: -94886206, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 207487934, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1429834415, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 23, y: 11, z: 0}
@@ -22171,6 +22171,7 @@ GameObject:
   - component: {fileID: 364340685}
   - component: {fileID: 364340684}
   - component: {fileID: 364340686}
+  - component: {fileID: 364340687}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -22323,6 +22324,7 @@ MonoBehaviour:
   facingDirection: 1
   rb: {fileID: 364340683}
   anim: {fileID: 364340685}
+  playerCombat: {fileID: 364340687}
   boundaryCollider: {fileID: 1608518569}
   mapTilemap: {fileID: 114959433}
 --- !u!95 &364340685
@@ -22362,6 +22364,19 @@ MonoBehaviour:
   maxHealth: 5
   healthText: {fileID: 180183627}
   healthTextAnim: {fileID: 180183629}
+--- !u!114 &364340687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364340679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6766694ebb0bb0a48bb390f2fa972cd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 364340685}
 --- !u!1 &417964510
 GameObject:
   m_ObjectHideFlags: 0
