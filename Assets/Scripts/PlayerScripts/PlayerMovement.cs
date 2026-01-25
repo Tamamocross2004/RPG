@@ -5,7 +5,6 @@ using UnityEngine.Tilemaps;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5;
     public float facingDirection = 1;
     public Rigidbody2D rb;
     public Animator anim;
@@ -45,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("horizontal", Mathf.Abs(horizontal));
             anim.SetFloat("vertical", Mathf.Abs(vertical));
 
-            Vector2 movement = new Vector2(horizontal, vertical) * speed;
+            Vector2 movement = new Vector2(horizontal, vertical) * StatsManager.Instance.speed;
             Vector2 currentPosition = rb.position;
             Vector2 newPosition = currentPosition + movement * Time.fixedDeltaTime;
             
