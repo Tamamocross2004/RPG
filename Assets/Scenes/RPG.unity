@@ -15996,6 +15996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -16086,6 +16090,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 142082140}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &142082142 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 142082140}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &142809660
 GameObject:
   m_ObjectHideFlags: 0
@@ -19063,7 +19078,7 @@ Tilemap:
       - {fileID: 1598070036, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -1373588279, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -942269718, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -1, y: -17, z: 0}
@@ -19123,7 +19138,7 @@ Tilemap:
       - {fileID: 171686025, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: 1739904756, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -1704599710, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 3, y: -17, z: 0}
@@ -19288,7 +19303,7 @@ Tilemap:
       - {fileID: -94886206, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 207487934, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1429834415, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -16, z: 0}
@@ -19708,7 +19723,7 @@ Tilemap:
       - {fileID: -972128459, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 1621659104, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1838339339, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: -15, z: 0}
@@ -19873,7 +19888,7 @@ Tilemap:
       - {fileID: -972128459, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 1621659104, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1838339339, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -4, y: -15, z: 0}
@@ -19903,7 +19918,7 @@ Tilemap:
       - {fileID: -972128459, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 1621659104, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1838339339, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 20, y: -15, z: 0}
@@ -20128,7 +20143,7 @@ Tilemap:
       - {fileID: 256438735, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 2098298150, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -934961501, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 24, y: -14, z: 0}
@@ -20233,7 +20248,7 @@ Tilemap:
       - {fileID: 171686025, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: 1739904756, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
       - {fileID: -1704599710, guid: 569675004da4b174aaa6452b7edef36c, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -2, y: -13, z: 0}
@@ -20608,7 +20623,7 @@ Tilemap:
       - {fileID: -1636680580, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1860293392, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -557123780, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -22, y: -6, z: 0}
@@ -20938,7 +20953,7 @@ Tilemap:
       - {fileID: -972128459, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 1621659104, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1838339339, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 24, y: 4, z: 0}
@@ -21013,7 +21028,7 @@ Tilemap:
       - {fileID: -94886206, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 207487934, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1429834415, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -25, y: 8, z: 0}
@@ -21088,7 +21103,7 @@ Tilemap:
       - {fileID: -1636680580, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1860293392, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -557123780, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 24, y: 10, z: 0}
@@ -21733,7 +21748,7 @@ Tilemap:
       - {fileID: -94886206, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: 207487934, guid: 803c6504c9222164ca56af2efc971791, type: 3}
       - {fileID: -1429834415, guid: 803c6504c9222164ca56af2efc971791, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -14, y: 21, z: 0}
@@ -22364,6 +22379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -22454,6 +22473,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 240198837}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &240198839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 240198837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &251213759
 GameObject:
   m_ObjectHideFlags: 0
@@ -22467,6 +22497,7 @@ GameObject:
   - component: {fileID: 251213762}
   - component: {fileID: 251213761}
   - component: {fileID: 251213764}
+  - component: {fileID: 251213765}
   m_Layer: 0
   m_Name: SkillsCanvas
   m_TagString: Untagged
@@ -22566,9 +22597,48 @@ CanvasGroup:
   m_GameObject: {fileID: 251213759}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &251213765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251213759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce06ee7a76306c42898127a69d605c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillSlots:
+  - {fileID: 1573902496384348503}
+  - {fileID: 1134251864}
+  - {fileID: 820510016}
+  - {fileID: 686734847}
+  - {fileID: 1584448500}
+  - {fileID: 2098316241}
+  - {fileID: 808780940}
+  - {fileID: 1694661982}
+  - {fileID: 1705561412}
+  - {fileID: 1047421181}
+  - {fileID: 958242787}
+  - {fileID: 1599860271}
+  - {fileID: 1180938181}
+  - {fileID: 240198839}
+  - {fileID: 2075374207}
+  - {fileID: 552020188}
+  - {fileID: 142082142}
+  - {fileID: 1700929186}
+  - {fileID: 1770410300}
+  - {fileID: 352826889}
+  - {fileID: 1067077047}
+  - {fileID: 1236838914}
+  - {fileID: 897134727}
+  - {fileID: 1383013132}
+  pointsText: {fileID: 1390398092}
+  availablePoints: 5
 --- !u!1 &345343807
 GameObject:
   m_ObjectHideFlags: 0
@@ -22715,6 +22785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -22805,6 +22879,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 352826887}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &352826889 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 352826887}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &364340679
 GameObject:
   m_ObjectHideFlags: 0
@@ -23993,6 +24078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -24083,6 +24172,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 552020186}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &552020188 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 552020186}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &577191042
 GameObject:
   m_ObjectHideFlags: 0
@@ -24463,6 +24563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -24553,6 +24657,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 686734845}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &686734847 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 686734845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &710789811
 GameObject:
   m_ObjectHideFlags: 0
@@ -24896,6 +25011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -24986,6 +25105,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 808780938}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &808780940 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 808780938}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &820510014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24997,6 +25127,14 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: dc2bd2568bf66114ca818f9afe91d757, type: 2}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -25088,6 +25226,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 820510014}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &820510016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 820510014}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &844766830
 GameObject:
   m_ObjectHideFlags: 0
@@ -25461,6 +25610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -25551,6 +25704,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 897134725}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &897134727 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 897134725}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &958242785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25562,6 +25726,10 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -25653,6 +25821,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 958242785}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &958242787 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 958242785}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &969223049
 GameObject:
   m_ObjectHideFlags: 0
@@ -26340,6 +26519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -26430,6 +26613,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1047421179}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1047421181 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1047421179}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1067077045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26441,6 +26635,10 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -26532,6 +26730,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1067077045}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1067077047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1067077045}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1134251862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26543,6 +26752,38 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: dc2bd2568bf66114ca818f9afe91d757, type: 2}
+    - target: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: currentLevel
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792813829203298903, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cb67053a1c36d364a96b1524c6b98a14, type: 3}
+    - target: {fileID: 1792813829203298903, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792813829203298903, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792813829203298903, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -26624,6 +26865,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8276555197803137406, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_text
+      value: 3/5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26634,6 +26879,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1134251862}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1134251864 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1134251862}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1152111434
 GameObject:
   m_ObjectHideFlags: 0
@@ -26844,6 +27100,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: cb67053a1c36d364a96b1524c6b98a14, type: 3}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -26946,6 +27206,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1180938179}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1180938181 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1180938179}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1181760585
 GameObject:
   m_ObjectHideFlags: 0
@@ -27168,6 +27439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -27258,6 +27533,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1236838912}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1236838914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1236838912}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1260038428
 GameObject:
   m_ObjectHideFlags: 0
@@ -27827,6 +28113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -27917,6 +28207,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1383013130}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1383013132 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1383013130}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1389153182
 GameObject:
   m_ObjectHideFlags: 0
@@ -28274,6 +28575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -28364,6 +28669,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1584448498}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1584448500 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1584448498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1599860269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28375,6 +28691,10 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -28466,6 +28786,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1599860269}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1599860271 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1599860269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1608518568
 GameObject:
   m_ObjectHideFlags: 0
@@ -28707,6 +29038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -28797,6 +29132,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1694661980}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1694661982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1694661980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1700929184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28808,6 +29154,10 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -28899,6 +29249,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1700929184}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1700929186 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1700929184}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1702146870
 GameObject:
   m_ObjectHideFlags: 0
@@ -28985,6 +29346,10 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -29076,6 +29441,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1705561410}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1705561412 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1705561410}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1770410298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29087,6 +29463,10 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -29178,6 +29558,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 1770410298}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1770410300 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1770410298}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1797915518
 GameObject:
   m_ObjectHideFlags: 0
@@ -29930,6 +30321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -30020,6 +30415,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 2075374205}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2075374207 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 2075374205}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2091931892
 GameObject:
   m_ObjectHideFlags: 0
@@ -30062,6 +30468,10 @@ PrefabInstance:
     - target: {fileID: 670088234676799866, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Name
       value: SkillButton (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
@@ -30153,6 +30563,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
   m_PrefabInstance: {fileID: 2098316239}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2098316241 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 2098316239}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1539816983942848052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30266,6 +30687,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: skillSO
+      value: 
+      objectReference: {fileID: 11400000, guid: dc2bd2568bf66114ca818f9afe91d757, type: 2}
+    - target: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: isUnlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5432749709116304026, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166898231842631393, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -30351,6 +30784,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+--- !u!114 &1573902496384348503 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1297921674885392695, guid: 97219995686c1874a9d3ecf5a087a88e, type: 3}
+  m_PrefabInstance: {fileID: 1573902496384348502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

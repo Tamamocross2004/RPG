@@ -32,10 +32,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5432749709116304026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -20, y: 10}
-  m_SizeDelta: {x: 40, y: 20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1158182663300710583
 CanvasRenderer:
@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 5069798895758492948}
   - component: {fileID: 7275846960645766106}
   - component: {fileID: 7204929966843467311}
+  - component: {fileID: 1297921674885392695}
   m_Layer: 0
   m_Name: SkillButton
   m_TagString: Untagged
@@ -331,6 +332,24 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1297921674885392695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670088234676799866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e0902109ca5b848aa5edf22b5f756b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillSO: {fileID: 0}
+  currentLevel: 0
+  isUnlocked: 0
+  skillIcon: {fileID: 1792813829203298903}
+  skillButton: {fileID: 7204929966843467311}
+  skillLevelText: {fileID: 8276555197803137406}
 --- !u!1 &4529628331125185700
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,8 +385,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.3083, y: -23.374}
-  m_SizeDelta: {x: 50.0632, y: 23.7611}
+  m_AnchoredPosition: {x: 6.3706, y: -23.374}
+  m_SizeDelta: {x: 59.9388, y: 23.7611}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5241384035138842765
 CanvasRenderer:
