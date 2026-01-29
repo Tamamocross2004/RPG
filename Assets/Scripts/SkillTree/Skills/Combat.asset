@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb518e82b3d26844fbd621f66ce33dd6, type: 3}
-  m_Name: MaxHealthBoost
+  m_Name: Combat
   m_EditorClassIdentifier: 
-  skillName: Helath
-  maxLevel: 5
-  skillIcon: {fileID: 21300000, guid: ed93cef38448fec4c86e57b2b80e47c9, type: 3}
+  skillName: Sword Slash
+  maxLevel: 1
+  skillIcon: {fileID: 21300000, guid: 55ff491930da9564e8a1f6f7ba11c7cd, type: 3}
