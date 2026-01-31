@@ -12,6 +12,8 @@ public class PlayerBow : MonoBehaviour
     public float shootCooldown = 0.5f;
     private float shootTimer;
 
+    public Animator anim;
+
     // Update is called once per frame
     void Update()
     {
@@ -20,8 +22,20 @@ public class PlayerBow : MonoBehaviour
         HandleAiming();
         if(Input.GetButtonDown("Shoot") && shootTimer <= 0)
         {
-            Shoot();
+            anim.SetBool("isShooting", true);
         }
+    }
+
+    private void OnEnable()
+    {
+        anim.SetLayerWeight(0, 0);
+        anim.SetLayerWeight(1, 1);
+    }
+
+    private void OnDisable()
+    {
+        anim.SetLayerWeight(0, 1);
+        anim.SetLayerWeight(1, 0);
     }
 
     private void HandleAiming()
@@ -32,6 +46,8 @@ public class PlayerBow : MonoBehaviour
         if(horizontal != 0 || vertical != 0)
         {
             aimDirection = new Vector2(horizontal, vertical).normalized;
+            anim.SetFloat("aimX", aimDirection.x);
+            anim.SetFloat("aimY", aimDirection.y);
         }
     }
 
@@ -40,5 +56,6 @@ public class PlayerBow : MonoBehaviour
         Arrow arrow = Instantiate(arrowPrefab, launchPoint.position, Quaternion.identity).GetComponent<Arrow>();
         arrow.direction = aimDirection;
         shootTimer = shootCooldown;
+        anim.SetBool("isShooting", false);
     }
 }

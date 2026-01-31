@@ -208,3 +208,147 @@ Start importing Assets/Sprites/Archer_Blue.png using Guid(30c6f85dd3abfb049baaae
  -> (artifact id: 'f4a93653070c830cf2e5c79f52c66dd8') in 0.187143 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 976.711978 seconds.
+  path: Assets/Sprites/Animations/ArcherIdle.anim
+  artifactKey: Guid(033f62861c45ac644a080a2d4e220463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherIdle.anim using Guid(033f62861c45ac644a080a2d4e220463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '978961a214e67f62eb79b75288c370d8') in 0.002488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.852210 seconds.
+  path: Assets/Sprites/Animations/ArcherShootHorizontal.anim
+  artifactKey: Guid(f99a1ccb4faa08945b0705b84c4008de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherShootHorizontal.anim using Guid(f99a1ccb4faa08945b0705b84c4008de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'acfa19df1cfdd8007bc1890b0eb374cb') in 0.001262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.847977 seconds.
+  path: Assets/Sprites/Animations/ArcherShootHorizontal.anim
+  artifactKey: Guid(f99a1ccb4faa08945b0705b84c4008de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherShootHorizontal.anim using Guid(f99a1ccb4faa08945b0705b84c4008de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'baf2e608ebf5bbf58f87eed06512f237') in 0.001323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.569029 seconds.
+  path: Assets/Sprites/Animations/ArcherIdle.anim
+  artifactKey: Guid(033f62861c45ac644a080a2d4e220463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherIdle.anim using Guid(033f62861c45ac644a080a2d4e220463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '809542f2a286b721cccfd868e7c54a86') in 0.002208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.102735 seconds.
+  path: Assets/Sprites/Animations/Slash.anim
+  artifactKey: Guid(50446bd4393f42549ba3d623df29eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/Slash.anim using Guid(50446bd4393f42549ba3d623df29eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '55058d20484b02569d1a865fe9c233f9') in 0.001741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.412548 seconds.
+  path: Assets/Sprites/Animations/Player.controller
+  artifactKey: Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/Player.controller using Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '049ba6db7d9687f643194b854ca20954') in 0.007315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 6.876308 seconds.
+  path: Assets/Sprites/Animations/ArcherWalking.anim
+  artifactKey: Guid(14d0d7de93a262649a8ce83308176aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherWalking.anim using Guid(14d0d7de93a262649a8ce83308176aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '2db28c81dfa58d82673b593efe431862') in 0.001614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.725869 seconds.
+  path: Assets/Sprites/Animations/ArcherWalking.anim
+  artifactKey: Guid(14d0d7de93a262649a8ce83308176aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherWalking.anim using Guid(14d0d7de93a262649a8ce83308176aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'da96d9c752802d2e3289633eab61485e') in 0.001221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.111129 seconds.
+  path: Assets/Sprites/Animations/ArcherShootUpDiag.anim
+  artifactKey: Guid(d605c51678e6e7a4ab4cd4c8c2f1de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherShootUpDiag.anim using Guid(d605c51678e6e7a4ab4cd4c8c2f1de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5e2a06ce09e543efd11d4c14c54d021e') in 0.001685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.142838 seconds.
+  path: Assets/Sprites/Animations/ArcherShootUp.anim
+  artifactKey: Guid(21206567d284fc249a14510fe1fbc401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherShootUp.anim using Guid(21206567d284fc249a14510fe1fbc401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '57486b1dfbb05d8593fc351a85059dc5') in 0.001304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.839199 seconds.
+  path: Assets/Sprites/Animations/ArcherShootDownDiag.anim
+  artifactKey: Guid(8af222d07ef411540939f4cfc82f1eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherShootDownDiag.anim using Guid(8af222d07ef411540939f4cfc82f1eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6f4a1486d0a1850667ac4cd47551df27') in 0.001735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.386549 seconds.
+  path: Assets/Sprites/Animations/ArcherShootDown.anim
+  artifactKey: Guid(4d0715192f8c26e4fab67293952a19b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/ArcherShootDown.anim using Guid(4d0715192f8c26e4fab67293952a19b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '937d2c4d175c7749c55c32336ac6ac3b') in 0.001892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 189.644989 seconds.
+  path: Assets/Sprites/Animations/Player.controller
+  artifactKey: Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/Player.controller using Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'bace003d2f8ea6ef39088ad2d0fd1c28') in 0.004016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 91.376025 seconds.
+  path: Assets/Sprites/Animations/Player.controller
+  artifactKey: Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/Player.controller using Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9f8197d205e9a08877bcb020fc8a31d6') in 0.002424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 18.163785 seconds.
+  path: Assets/Sprites/Animations/Player.controller
+  artifactKey: Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/Player.controller using Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5a7d39f6a69b511dc03a0d4e9738ca75') in 0.002957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 87.897525 seconds.
+  path: Assets/Sprites/Animations/Player.controller
+  artifactKey: Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animations/Player.controller using Guid(c7422281ff499a2488442d4319249bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '294976b5706081e3e37855f53f29c6ca') in 0.004797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
