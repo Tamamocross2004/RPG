@@ -26,11 +26,17 @@ public class PlayerMovement : MonoBehaviour
     public Tilemap mapTilemap;
 
     private bool isKnockedBack;
+    public bool isShooting;
 
     // FixedUpdate is called 50x per frame
     void FixedUpdate()
     {
-        if(isKnockedBack == false)
+        if(isShooting == true)
+        {
+            rb.velocity = Vector2.zero;
+        }
+
+        else if(isKnockedBack == false)
         {
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
