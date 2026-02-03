@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37ce07ab48c3fe742b4746286db414fd, type: 3}
-  m_Name: Mushroom
+  m_Name: Gold
   m_EditorClassIdentifier: 
-  itemName: Mushroom
-  itemDescription: It's an item... it mushes?
-  icon: {fileID: 21300000, guid: 833338ec32c6a0041ae0c1f5146acc14, type: 3}
-  isGold: 0
+  itemName: Gold
+  itemDescription: Cold hard crash.
+  icon: {fileID: 21300000, guid: f34b222e86a490244ae1b00058f81273, type: 3}
+  isGold: 1
   currentHealth: 0
   maxHealth: 0
   speed: 0
