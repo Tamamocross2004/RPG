@@ -12,6 +12,7 @@ public class StatsUI : MonoBehaviour
 
     private void Start()
     {
+        statsCanvas.blocksRaycasts = false;
         UpdateAllStats();
     }
 
@@ -22,14 +23,18 @@ public class StatsUI : MonoBehaviour
             if(statsOpen)
             {
                 Time.timeScale = 1;
+                UpdateAllStats();
                 statsCanvas.alpha = 0;
+                statsCanvas.blocksRaycasts = false;
                 statsOpen = false;
             }
             else
             {
                 // 暂停游戏
                 Time.timeScale = 0;
+                UpdateAllStats();
                 statsCanvas.alpha = 1;
+                statsCanvas.blocksRaycasts = true;
                 statsOpen = true;
             }
         }
