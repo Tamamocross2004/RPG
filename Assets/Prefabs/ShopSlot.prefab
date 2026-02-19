@@ -168,10 +168,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
+  m_fontSize: 49.25
   m_fontSizeBase: 48
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 8641426706262935363}
   - component: {fileID: 3121545497709090338}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,6 +356,7 @@ GameObject:
   - component: {fileID: 6235960378788583953}
   - component: {fileID: 5026415839855890514}
   - component: {fileID: 5093010199346397468}
+  - component: {fileID: 5770662426378615127}
   m_Layer: 5
   m_Name: ShopSlot
   m_TagString: Untagged
@@ -467,6 +468,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5770662426378615127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4571209894912340405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33ea777c3d66b24cb2731a4cdae020e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSO: {fileID: 0}
+  itemNameText: {fileID: 1741037871084628653}
+  priceText: {fileID: 3121545497709090338}
+  itemImage: {fileID: 41835307467848739}
 --- !u!1 &4727656270691864892
 GameObject:
   m_ObjectHideFlags: 0
