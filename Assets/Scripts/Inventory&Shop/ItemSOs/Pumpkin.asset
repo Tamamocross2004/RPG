@@ -16,8 +16,9 @@ MonoBehaviour:
   itemDescription: It's a pumpkin... can it be worn on my head?
   icon: {fileID: 1435627256, guid: 987dee3d9798e6745af79ffc77cb044d, type: 3}
   isGold: 0
-  currentHealth: 0
+  stackSize: 3
+  currentHealth: 4
   maxHealth: 0
   speed: 5
   damage: 0
-  duration: 5
+  duration: 10
